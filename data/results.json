@@ -1,0 +1,1089 @@
+{
+  "schema": "cwi.link-scan/1.0",
+  "engine": "cwi-link-sentinel/1.0.0",
+  "started_at": "2026-09-21T14:10:05.005Z",
+  "finished_at": "2026-09-21T14:10:44.797Z",
+  "duration_s": 39.8,
+  "record_count": 67,
+  "counts": {
+    "LIVE": 65,
+    "REDIRECT": 0,
+    "DEAD": 2,
+    "ERROR": 0,
+    "UNCHECKED": 0
+  },
+  "results": [
+    {
+      "id": "trk_0emH8ktA",
+      "label": "Zooted Zone",
+      "url": "https://open.spotify.com/track/0emH8ktA8x4DkOFLsG5xkW",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Zooted Zone",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Zooted Zone\"",
+      "checked_at": "2026-09-21T14:10:05.007Z"
+    },
+    {
+      "id": "trk_3pQEzg7x",
+      "label": "Shaka Zulu",
+      "url": "https://open.spotify.com/track/3pQEzg7xFqGIk0CK1Za1Kw",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Shaka Zulu",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Shaka Zulu\"",
+      "checked_at": "2026-09-21T14:10:06.253Z"
+    },
+    {
+      "id": "trk_4NAyd7rv",
+      "label": "Doves & Diamonds",
+      "url": "https://open.spotify.com/track/4NAyd7rvnuG3DrPFqXo4eQ",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Doves & Diamonds",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Doves & Diamonds\"",
+      "checked_at": "2026-09-21T14:10:07.493Z"
+    },
+    {
+      "id": "trk_2eSyWmId",
+      "label": "Diabolique",
+      "url": "https://open.spotify.com/track/2eSyWmIdPzEMyWejLb2LBj",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Diabolique",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Diabolique\"",
+      "checked_at": "2026-09-21T14:10:08.034Z"
+    },
+    {
+      "id": "trk_2MDHAUo4",
+      "label": "Flamerz",
+      "url": "https://open.spotify.com/track/2MDHAUo4zJTHGXGQHUhNw0",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Flamerz",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Flamerz\"",
+      "checked_at": "2026-09-21T14:10:08.579Z"
+    },
+    {
+      "id": "trk_4XP56LZj",
+      "label": "Neon Nights Pt. 777",
+      "url": "https://open.spotify.com/track/4XP56LZjeS0TJUd30kpGSK",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Neon Nights Pt. 777",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Neon Nights Pt. 777\"",
+      "checked_at": "2026-09-21T14:10:09.277Z"
+    },
+    {
+      "id": "trk_2daugr3n",
+      "label": "Ultimate",
+      "url": "https://open.spotify.com/track/2daugr3ni3r6jHH6UI57EK",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Ultimate",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Ultimate\"",
+      "checked_at": "2026-09-21T14:10:09.827Z"
+    },
+    {
+      "id": "trk_6nhzq7P7",
+      "label": "Painted Lady",
+      "url": "https://open.spotify.com/track/6nhzq7P7x09aUbPts4ywFl",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Painted Lady",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Painted Lady\"",
+      "checked_at": "2026-09-21T14:10:10.946Z"
+    },
+    {
+      "id": "trk_3w4RKguH",
+      "label": "Warped and Wicked",
+      "url": "https://open.spotify.com/track/3w4RKguHAT2xd9K0w5CklC",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Warped and Wicked",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Warped and Wicked\"",
+      "checked_at": "2026-09-21T14:10:11.626Z"
+    },
+    {
+      "id": "trk_4RFWRhPn",
+      "label": "Golden Diamond",
+      "url": "https://open.spotify.com/track/4RFWRhPn8NX0DTQPpl1swe",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Golden Diamond",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Golden Diamond\"",
+      "checked_at": "2026-09-21T14:10:12.154Z"
+    },
+    {
+      "id": "trk_2tEdW6WK",
+      "label": "Spirits n Shadows",
+      "url": "https://open.spotify.com/track/2tEdW6WKfcs2NGI6OIvAm6",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Spirits n Shadows",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Spirits n Shadows\"",
+      "checked_at": "2026-09-21T14:10:13.269Z"
+    },
+    {
+      "id": "trk_7FQvcCS2",
+      "label": "Flex My Flame",
+      "url": "https://open.spotify.com/track/7FQvcCS2CdTVsd6hb9jvHx",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Flex My Flame",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Flex My Flame\"",
+      "checked_at": "2026-09-21T14:10:14.016Z"
+    },
+    {
+      "id": "trk_2ZUYjQGs",
+      "label": "Rainbows And Roses",
+      "url": "https://open.spotify.com/track/2ZUYjQGsRLHRcsfgyeAWpo",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Rainbows And Roses",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Rainbows And Roses\"",
+      "checked_at": "2026-09-21T14:10:14.646Z"
+    },
+    {
+      "id": "trk_6NfxhZ4N",
+      "label": "Tears and Scars",
+      "url": "https://open.spotify.com/track/6NfxhZ4NebIduGEKZeD2Lk",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Tears and Scars",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Tears and Scars\"",
+      "checked_at": "2026-09-21T14:10:16.183Z"
+    },
+    {
+      "id": "trk_2aTbpxiF",
+      "label": "Toxic Elements",
+      "url": "https://open.spotify.com/track/2aTbpxiF2jNiB3PGi81oqa",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Toxic Elements",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Toxic Elements\"",
+      "checked_at": "2026-09-21T14:10:16.727Z"
+    },
+    {
+      "id": "trk_2dvfN5rF",
+      "label": "7th Angel",
+      "url": "https://open.spotify.com/track/2dvfN5rFyQO69qmb5oYlRG",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "7th Angel",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"7th Angel\"",
+      "checked_at": "2026-09-21T14:10:17.243Z"
+    },
+    {
+      "id": "trk_6YQq5Gsa",
+      "label": "Scorpions & Sapphires",
+      "url": "https://open.spotify.com/track/6YQq5GsaUmanh0XyHQIGoR",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Scorpions & Sapphires",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Scorpions & Sapphires\"",
+      "checked_at": "2026-09-21T14:10:17.825Z"
+    },
+    {
+      "id": "trk_3KX10tZB",
+      "label": "Place I Go to Dream",
+      "url": "https://open.spotify.com/track/3KX10tZBft6gp2Nea9HZOB",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Place I Go to Dream",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Place I Go to Dream\"",
+      "checked_at": "2026-09-21T14:10:18.405Z"
+    },
+    {
+      "id": "trk_31MTBSMf",
+      "label": "Place I Go to Dream - Remastered",
+      "url": "https://open.spotify.com/track/31MTBSMfWy4jGEYAilkaH8",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Place I Go to Dream",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Place I Go to Dream\"",
+      "checked_at": "2026-09-21T14:10:20.248Z"
+    },
+    {
+      "id": "trk_3tKoMnnl",
+      "label": "Place I Go to Dream - Instrumental",
+      "url": "https://open.spotify.com/track/3tKoMnnlkcRr7wE3PUQ9bp",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Place I Go to Dream - Instrumental",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Place I Go to Dream\"",
+      "checked_at": "2026-09-21T14:10:20.957Z"
+    },
+    {
+      "id": "trk_6jJpR9Ih",
+      "label": "Smokin' Pain",
+      "url": "https://open.spotify.com/track/6jJpR9IhQ9PmRPJpxLlOmK",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Smokin' Pain",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Smokin' Pain\"",
+      "checked_at": "2026-09-21T14:10:21.552Z"
+    },
+    {
+      "id": "trk_7xbS3rY8",
+      "label": "Phantasm",
+      "url": "https://open.spotify.com/track/7xbS3rY8ZzCXNEPLPykf95",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Phantasm",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Phantasm\"",
+      "checked_at": "2026-09-21T14:10:22.278Z"
+    },
+    {
+      "id": "trk_4Z5UCQLq",
+      "label": "Misfits and Hooligans",
+      "url": "https://open.spotify.com/track/4Z5UCQLqWzpPeihPTZ9Gqg",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Misfits and Hooligans",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Misfits and Hooligans\"",
+      "checked_at": "2026-09-21T14:10:23.014Z"
+    },
+    {
+      "id": "trk_3r86Cjox",
+      "label": "Roses over Monaco",
+      "url": "https://open.spotify.com/track/3r86CjoxCNvvCz98h2btm1",
+      "kind": "spotify_track",
+      "platform": "spotify",
+      "source": "cwi-sync-audition tracks.json (verified Spotify IDs 2026-09-16)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "Roses over Monaco",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"Roses over Monaco\"",
+      "checked_at": "2026-09-21T14:10:23.663Z"
+    },
+    {
+      "id": "pl_5zhnSpZq",
+      "label": "New Rap Hits — Audiartist",
+      "url": "https://open.spotify.com/playlist/5zhnSpZqKRRaOvRMWuT0bL",
+      "kind": "spotify_playlist",
+      "platform": "spotify",
+      "source": "cwi-placement-wall docs/placements.json (VERIFIED 2026-09-17)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "New Rap Hits",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"New Rap Hits\"",
+      "checked_at": "2026-09-21T14:10:24.559Z"
+    },
+    {
+      "id": "pl_79Qj8SYO",
+      "label": "No Label Needed — Flow",
+      "url": "https://open.spotify.com/playlist/79Qj8SYOl5zW4m4dMprrX9",
+      "kind": "spotify_playlist",
+      "platform": "spotify",
+      "source": "cwi-placement-wall docs/placements.json (VERIFIED 2026-09-17)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "No Label Needed- Hip Hop & R&B| The Next Wave",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"No Label Needed\"",
+      "checked_at": "2026-09-21T14:10:25.131Z"
+    },
+    {
+      "id": "pl_0hsLLFaA",
+      "label": "360° : The Best Indie Music — Eric Alper",
+      "url": "https://open.spotify.com/playlist/0hsLLFaADDjU54tFqaImFh",
+      "kind": "spotify_playlist",
+      "platform": "spotify",
+      "source": "cwi-placement-wall docs/placements.json (VERIFIED 2026-09-17)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "oembed_title": "360° : The Best Indie Music",
+        "provider": "Spotify"
+      },
+      "note": "oEmbed title contains expected \"360°\"",
+      "checked_at": "2026-09-21T14:10:25.769Z"
+    },
+    {
+      "id": "graph_llms_txt",
+      "label": "Catalog Graph /llms.txt",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/llms.txt",
+      "kind": "http",
+      "platform": null,
+      "source": "cwi-learn canonical routes (MEMORY.md: all 200 verified 2026-09-15)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-learn/llms.txt",
+        "content_type": "text/plain; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:26.389Z"
+    },
+    {
+      "id": "graph_catalog_json",
+      "label": "Catalog Graph /catalog.json",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+      "kind": "http",
+      "platform": null,
+      "source": "cwi-learn canonical routes (MEMORY.md: all 200 verified 2026-09-15)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-learn/catalog.json",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:27.028Z"
+    },
+    {
+      "id": "graph_graph_json",
+      "label": "Catalog Graph /graph.json",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+      "kind": "http",
+      "platform": null,
+      "source": "cwi-learn canonical routes (MEMORY.md: all 200 verified 2026-09-15)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-learn/graph.json",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:27.488Z"
+    },
+    {
+      "id": "graph_kit_json",
+      "label": "Catalog Graph /kit.json",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/kit.json",
+      "kind": "http",
+      "platform": null,
+      "source": "cwi-learn canonical routes (MEMORY.md: all 200 verified 2026-09-15)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-learn/kit.json",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:27.885Z"
+    },
+    {
+      "id": "graph_agent-card",
+      "label": "Catalog Graph /.well-known/agent-card.json",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json",
+      "kind": "http",
+      "platform": null,
+      "source": "cwi-learn canonical routes (MEMORY.md: all 200 verified 2026-09-15)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-learn/.well-known/agent-card.json",
+        "content_type": "application/json; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:28.284Z"
+    },
+    {
+      "id": "graph_gtavi_jpg",
+      "label": "Catalog Graph /gtavi.jpg",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/gtavi.jpg",
+      "kind": "http",
+      "platform": null,
+      "source": "cwi-learn canonical routes (MEMORY.md: all 200 verified 2026-09-15)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-learn/gtavi.jpg",
+        "content_type": "image/jpeg"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:28.666Z"
+    },
+    {
+      "id": "clm_zooted",
+      "label": "Zooted Zone placement claim",
+      "url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NKM8WC5CT9FCGPHAQB.html",
+      "kind": "http",
+      "platform": null,
+      "source": "cwi-sync-audition placement record (VERIFIED scan 2026-09-15)",
+      "status": "DEAD",
+      "truth": "UNVERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NKM8WC5CT9FCGPHAQB.html",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "HTTP 404 at https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NKM8WC5CT9FCGPHAQB.html",
+      "checked_at": "2026-09-21T14:10:29.045Z"
+    },
+    {
+      "id": "app_gear-ledger-3d-mockup",
+      "label": "Gear Ledger 3D World",
+      "url": "https://cumulativewebinc.github.io/gear-ledger-3d-mockup/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=SAMPLE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/gear-ledger-3d-mockup/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:29.711Z"
+    },
+    {
+      "id": "app_ultimate",
+      "label": "Project Ultimate",
+      "url": "https://cumulativewebinc.github.io/ultimate/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=SAMPLE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/ultimate/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:30.081Z"
+    },
+    {
+      "id": "app_cwi-learn",
+      "label": "Catalog Graph (cwi-learn)",
+      "url": "https://cumulativewebinc.github.io/cwi-learn/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-learn/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:30.455Z"
+    },
+    {
+      "id": "app_playback-chip",
+      "label": "Playback Chip (#26)",
+      "url": "https://cumulativewebinc.github.io/playback-chip/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=MIXED)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/playback-chip/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:30.826Z"
+    },
+    {
+      "id": "app_cwi-agent-directory",
+      "label": "CWI Agent Directory",
+      "url": "https://cumulativewebinc.github.io/cwi-agent-directory/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-agent-directory/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:31.223Z"
+    },
+    {
+      "id": "app_cwi-nft-waitlist",
+      "label": "NFT Waitlist (Logo Protocol)",
+      "url": "https://cumulativewebinc.github.io/cwi-nft-waitlist/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-nft-waitlist/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:31.603Z"
+    },
+    {
+      "id": "app_cwi-sync",
+      "label": "CWI Sync / Licensing",
+      "url": "https://cumulativewebinc.github.io/cwi-sync/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-sync/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:32.080Z"
+    },
+    {
+      "id": "app_agent-deck",
+      "label": "Agent Deck Storefront",
+      "url": "https://cumulativewebinc.github.io/agent-deck/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=MIXED)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/agent-deck/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:32.469Z"
+    },
+    {
+      "id": "app_join",
+      "label": "Agent Join Funnel",
+      "url": "https://cumulativewebinc.github.io/ultimate/join/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/ultimate/join/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:32.957Z"
+    },
+    {
+      "id": "app_cwi-sync-audition",
+      "label": "Sync Audition Room (#27)",
+      "url": "https://cumulativewebinc.github.io/cwi-sync-audition/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-sync-audition/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:33.360Z"
+    },
+    {
+      "id": "app_cwi-brief-matcher",
+      "label": "Brief Matcher (#28)",
+      "url": "https://cumulativewebinc.github.io/cwi-brief-matcher/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-brief-matcher/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:33.730Z"
+    },
+    {
+      "id": "app_cwi-trust-log",
+      "label": "CWI Trust Log (#29)",
+      "url": "https://cumulativewebinc.github.io/cwi-trust-log/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-trust-log/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:34.123Z"
+    },
+    {
+      "id": "app_cwi-skill-sentinel",
+      "label": "Skill Sentinel (#30)",
+      "url": "https://cumulativewebinc.github.io/cwi-skill-sentinel/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-skill-sentinel/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:34.509Z"
+    },
+    {
+      "id": "app_cwi-verdict-watch",
+      "label": "Verdict Watch (#31)",
+      "url": "https://cumulativewebinc.github.io/cwi-verdict-watch/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-verdict-watch/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:35.024Z"
+    },
+    {
+      "id": "app_cwi-sonic-search",
+      "label": "Sonic Search (#33)",
+      "url": "https://cumulativewebinc.github.io/cwi-sonic-search/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-sonic-search/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:35.413Z"
+    },
+    {
+      "id": "app_cwi-context-grants",
+      "label": "Context Hash Grants (#35)",
+      "url": "https://cumulativewebinc.github.io/cwi-context-grants/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-context-grants/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:35.790Z"
+    },
+    {
+      "id": "app_cwi-settlement-prover",
+      "label": "Settlement Prover (#32)",
+      "url": "https://cumulativewebinc.github.io/cwi-settlement-prover/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-settlement-prover/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:36.186Z"
+    },
+    {
+      "id": "app_cwi-listening-room",
+      "label": "Listening Room (#36)",
+      "url": "https://cumulativewebinc.github.io/cwi-listening-room/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-listening-room/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:36.561Z"
+    },
+    {
+      "id": "app_cwi-change-ledger",
+      "label": "Change Ledger (#34)",
+      "url": "https://cumulativewebinc.github.io/cwi-change-ledger/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-change-ledger/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:37.050Z"
+    },
+    {
+      "id": "app_cwi-identity-ledger",
+      "label": "Identity Ledger (#37)",
+      "url": "https://cumulativewebinc.github.io/cwi-identity-ledger/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-identity-ledger/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:37.442Z"
+    },
+    {
+      "id": "app_cwi-memory-seal",
+      "label": "Memory Seal (#38)",
+      "url": "https://cumulativewebinc.github.io/cwi-memory-seal/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-memory-seal/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:37.831Z"
+    },
+    {
+      "id": "app_cwi-cuefinder",
+      "label": "CueFinder (#40)",
+      "url": "https://cumulativewebinc.github.io/cwi-cuefinder/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-cuefinder/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:38.216Z"
+    },
+    {
+      "id": "app_cwi-task-verdict",
+      "label": "Task Verdict (#39)",
+      "url": "https://cumulativewebinc.github.io/cwi-task-verdict/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-task-verdict/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:38.655Z"
+    },
+    {
+      "id": "app_cwi-attitude-engine",
+      "label": "Attitude Engine (#41)",
+      "url": "https://cumulativewebinc.github.io/cwi-attitude-engine/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-attitude-engine/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:39.030Z"
+    },
+    {
+      "id": "app_cwi-quantum-playground",
+      "label": "Quantum Playground (#42)",
+      "url": "https://cumulativewebinc.github.io/cwi-quantum-playground/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-quantum-playground/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:39.415Z"
+    },
+    {
+      "id": "app_cwi-placement-wall",
+      "label": "Placement Wall (#43)",
+      "url": "https://cumulativewebinc.github.io/cwi-placement-wall/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-placement-wall/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:39.805Z"
+    },
+    {
+      "id": "app_cwi-onboarding-pack",
+      "label": "Agent Onboarding Pack (#45)",
+      "url": "https://cumulativewebinc.github.io/cwi-onboarding-pack/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-onboarding-pack/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:40.200Z"
+    },
+    {
+      "id": "app_cwi-verification-kit",
+      "label": "cwi-verification-kit (trust-layer foundation)",
+      "url": "https://cumulativewebinc.github.io/cwi-verification-kit/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-verification-kit/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:40.603Z"
+    },
+    {
+      "id": "app_cwi-trust-attestation-explorer",
+      "label": "Attestation Explorer (trust-layer #1)",
+      "url": "https://cumulativewebinc.github.io/cwi-trust-attestation-explorer/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-trust-attestation-explorer/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:40.975Z"
+    },
+    {
+      "id": "app_cwi-trust-deploy-gate",
+      "label": "Deploy Gate (trust-layer #5)",
+      "url": "https://cumulativewebinc.github.io/cwi-trust-deploy-gate/",
+      "kind": "http",
+      "platform": null,
+      "source": "CWI Apps Registry 2026-09-21 (status=live, truth=LIVE)",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativewebinc.github.io/cwi-trust-deploy-gate/",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:41.369Z"
+    },
+    {
+      "id": "web_cumulativeweb",
+      "label": "cumulativeweb.com — official site",
+      "url": "https://cumulativeweb.com",
+      "kind": "http",
+      "platform": null,
+      "source": "MEMORY.md: verified live CWI web properties",
+      "status": "DEAD",
+      "truth": "UNVERIFIED",
+      "evidence": {
+        "final_url": "https://cumulativeweb.com",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "HTTP 404 at https://cumulativeweb.com",
+      "checked_at": "2026-09-21T14:10:41.807Z"
+    },
+    {
+      "id": "web_github",
+      "label": "github.com/CumulativeWebInc — org profile",
+      "url": "https://github.com/CumulativeWebInc",
+      "kind": "http",
+      "platform": null,
+      "source": "MEMORY.md: verified live CWI web properties",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://github.com/CumulativeWebInc",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:42.623Z"
+    },
+    {
+      "id": "web_substack",
+      "label": "substack.com/@cumulativewebinc — CWI Substack",
+      "url": "https://substack.com/@cumulativewebinc",
+      "kind": "http",
+      "platform": null,
+      "source": "MEMORY.md: verified live CWI web properties",
+      "status": "LIVE",
+      "truth": "VERIFIED",
+      "evidence": {
+        "final_url": "https://substack.com/@cumulativewebinc",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "note": "200 OK",
+      "checked_at": "2026-09-21T14:10:43.563Z"
+    }
+  ]
+}
