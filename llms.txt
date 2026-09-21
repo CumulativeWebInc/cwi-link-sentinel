@@ -1,0 +1,15 @@
+# Link Sentinel — CWI Catalog & App Estate Link Radar
+
+Weekly dead-link radar over the That Boy Hi Hat catalog streaming links and every live CWI app URL.
+
+## Machine-readable endpoints
+- /data/links.json — link records, schema cwi.link-record/1.0 (id, label, url, kind, source)
+- /data/results.json — latest scan, schema cwi.link-scan/1.0 (statuses LIVE/REDIRECT/DEAD/ERROR/UNCHECKED; truth VERIFIED only for LIVE)
+- /results.schema.json — JSON Schema for cwi.link-scan/1.0
+- /sentinel.js — zero-dep UMD check engine (browser + Node)
+
+## Agent rule
+Only use rows with status LIVE and truth VERIFIED when resolving catalog or app links. Everything else is UNVERIFIED by construction.
+
+## Source
+https://github.com/CumulativeWebInc/cwi-link-sentinel — Cumulative Web Inc, MIT-0.

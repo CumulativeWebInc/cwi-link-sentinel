@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Link Sentinel — CWI Catalog &amp; App Estate Link Radar</title>
+<meta name="description" content="Weekly dead-link radar over the That Boy Hi Hat catalog links and the whole CWI app estate. Every verdict carries its evidence; nothing is marked live without a real check.">
+<style>
+:root{--bg:#0b0e14;--panel:#141a26;--line:#263046;--txt:#e8ecf4;--mut:#9aa7c2;--live:#3ddc84;--dead:#ff5d5d;--redir:#ffb84d;--err:#b388ff;--unc:#8a93a8;--acc:#6ee7ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1060px;margin:0 auto;padding:16px}
+header{display:flex;gap:14px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}
+header img{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid var(--acc)}
+h1{font-size:1.35rem;margin:0}h1 small{display:block;font-size:.8rem;color:var(--mut);font-weight:400}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.badge{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:.8rem;color:var(--mut)}
+.badge b{color:var(--txt)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.chip{cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--txt);border-radius:999px;padding:6px 14px;font-size:.85rem}
+.chip[aria-pressed="true"]{border-color:var(--acc);color:var(--acc)}
+.search{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--txt);font-size:1rem;margin:8px 0}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:.9rem}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--mut);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+tr:hover td{background:#111724}
+.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:.75rem;font-weight:700;letter-spacing:.03em}
+.pill.LIVE{background:rgba(61,220,132,.14);color:var(--live);border:1px solid var(--live)}
+.pill.DEAD{background:rgba(255,93,93,.14);color:var(--dead);border:1px solid var(--dead)}
+.pill.REDIRECT{background:rgba(255,184,77,.14);color:var(--redir);border:1px solid var(--redir)}
+.pill.ERROR{background:rgba(179,136,255,.16);color:var(--err);border:1px solid var(--err)}
+.pill.UNCHECKED{background:rgba(138,147,168,.14);color:var(--unc);border:1px solid var(--unc)}
+.verd{font-size:.72rem;color:var(--mut)}.verd.VERIFIED{color:var(--live)}
+.ev{font-size:.78rem;color:var(--mut);max-width:340px;word-break:break-word}
+.ev code{color:var(--acc);font-size:.75rem}
+a{color:var(--acc)}
+.panel{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:18px 0;background:var(--panel)}
+.panel h2{font-size:1rem;margin:0 0 8px}.panel p,.panel li{font-size:.88rem;color:var(--mut)}
+.panel ul{margin:6px 0;padding-left:20px}
+footer{color:var(--mut);font-size:.8rem;padding:18px 0 40px;border-top:1px solid var(--line);margin-top:20px}
+@media(max-width:640px){table,thead,tbody,tr,td,th{display:block}thead{display:none}td{border:none;padding:6px 0}tr{border-bottom:1px solid var(--line);padding:10px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<img src="brand/cwi-logo.jpg" alt="Cumulative Web Inc logo">
+<div><h1>Link Sentinel <small>CWI catalog + app-estate link radar · #52</small></h1></div>
+</header>
+
+<div class="badges" id="summary"><span class="badge">loading scan…</span></div>
+
+<div class="chips" role="group" aria-label="status filter">
+<button class="chip" data-f="ALL" aria-pressed="true">All</button>
+<button class="chip" data-f="LIVE" aria-pressed="false">Live</button>
+<button class="chip" data-f="DEAD" aria-pressed="false">Dead</button>
+<button class="chip" data-f="REDIRECT" aria-pressed="false">Redirects</button>
+<button class="chip" data-f="ERROR" aria-pressed="false">Errors</button>
+<button class="chip" data-f="UNCHECKED" aria-pressed="false">Unchecked</button>
+</div>
+<input class="search" id="q" type="search" placeholder="Search label, URL, or source…" aria-label="search records">
+
+<table aria-label="link records">
+<thead><tr><th>Link</th><th>Status</th><th>Evidence</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+
+<div class="panel">
+<h2>Honest limits</h2>
+<ul>
+<li>A <b>LIVE</b> verdict means the URL resolved on the public web during the scan (HTTP 200, or a Spotify oEmbed title match). It proves the link is not dead — not that the content is correct.</li>
+<li>Spotify tracks are checked through Spotify's public oEmbed endpoint: a 404 there means Spotify itself has no such track page.</li>
+<li>Scans run weekly (Mondays 09:00 ET) via GitHub Actions; this page renders the committed <code>data/results.json</code>. The scan timestamp is shown above — treat anything older than 7 days as a snapshot, not current truth.</li>
+<li><b>DEAD</b> and <b>ERROR</b> rows are findings, not failures of this page. A dead link the radar catches before a fan or supervisor clicks it is the whole point.</li>
+</ul>
+</div>
+
+<div class="panel">
+<h2>For agents</h2>
+<p>Machine-readable: <code>data/links.json</code> (schema <code>cwi.link-record/1.0</code>) and <code>data/results.json</code> (schema <code>cwi.link-scan/1.0</code>, see <code>results.schema.json</code>). Resolve streaming links for a release only from rows with status <b>LIVE</b> and truth <b>VERIFIED</b>. Everything else is <b>UNVERIFIED</b> by construction.</p>
+</div>
+
+<div class="panel">
+<h2>Kill rule</h2>
+<p>If the weekly scan stops producing runs, or zero records check LIVE for 60 consecutive days, this lane is retired — a radar that doesn't scan is decoration. Last scan: <span id="lastscan">—</span>.</p>
+</div>
+
+<footer>Cumulative Web Inc · Link Sentinel v1.0.0 · engine <code>sentinel.js</code> (zero-dep UMD) · <a href="https://github.com/CumulativeWebInc/cwi-link-sentinel">source</a></footer>
+</div>
+<script src="sentinel.js"></script>
+<script>
+(function(){
+var state={filter:'ALL',q:'',joined:[]};
+function badge(txt){var s=document.createElement('span');s.className='badge';s.innerHTML=txt;return s;}
+function render(){
+  var box=document.getElementById('summary');box.innerHTML='';
+  var c={LIVE:0,REDIRECT:0,DEAD:0,ERROR:0,UNCHECKED:0};
+  state.joined.forEach(function(r){c[r.status]=(c[r.status]||0)+1;});
+  var meta=state.meta;
+  box.appendChild(badge('scan <b>'+(meta?meta.started_at.slice(0,10):'—')+'</b>'));
+  box.appendChild(badge('<b>'+state.joined.length+'</b> links'));
+  ['LIVE','DEAD','REDIRECT','ERROR','UNCHECKED'].forEach(function(k){
+    box.appendChild(badge(k+' <b>'+(c[k]||0)+'</b>'));
+  });
+  if(meta) document.getElementById('lastscan').textContent=meta.started_at+' → '+meta.finished_at+' ('+meta.duration_s+'s, engine '+meta.engine+')';
+  var rows=document.getElementById('rows');rows.innerHTML='';
+  state.joined.filter(function(r){
+    if(state.filter!=='ALL'&&r.status!==state.filter)return false;
+    if(state.q){var h=(r.label+' '+r.url+' '+r.source).toLowerCase();if(h.indexOf(state.q)===-1)return false;}
+    return true;
+  }).forEach(function(r){
+    var tr=document.createElement('tr');
+    var ev=r.note||'';
+    var ek=Object.keys(r.evidence||{});
+    if(ek.length){ev+=' <code>'+ek.map(function(k){return k+'='+(r.evidence[k]||'');}).join('; ').slice(0,140)+'</code>';}
+    tr.innerHTML='<td><a href="'+r.url.replace(/"/g,'')+'" target="_blank" rel="noopener">'+escapeHtml(r.label)+'</a><div class="verd">'+escapeHtml(r.kind)+(r.platform?' · '+escapeHtml(r.platform):'')+'</div><div class="verd">src: '+escapeHtml(r.source.slice(0,80))+'</div></td>'
+      +'<td><span class="pill '+r.status+'">'+r.status+'</span><div class="verd '+r.truth+'">'+r.truth+'</div></td>'
+      +'<td class="ev">'+ev+'<div class="verd">checked '+escapeHtml((r.checked_at||'').slice(0,16).replace('T',' '))+' UTC</div></td>';
+    rows.appendChild(tr);
+  });
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,function(m){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m];});}
+document.querySelectorAll('.chip').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.chip').forEach(function(x){x.setAttribute('aria-pressed','false');});
+    b.setAttribute('aria-pressed','true');state.filter=b.dataset.f;render();
+  });
+});
+document.getElementById('q').addEventListener('input',function(e){state.q=e.target.value.toLowerCase();render();});
+Promise.all([fetch('data/links.json').then(function(r){return r.json();}),fetch('data/results.json').then(function(r){return r.json();})])
+.then(function(pair){
+  var byId={};pair[1].results.forEach(function(r){byId[r.id]=r;});
+  state.meta=pair[1];
+  state.joined=pair[0].records.map(function(rec){
+    var r=byId[rec.id];
+    return r||{id:rec.id,label:rec.label,url:rec.url,kind:rec.kind,platform:rec.platform,source:rec.source,status:'UNCHECKED',truth:'UNVERIFIED',evidence:{},note:'no scan run has covered this record yet',checked_at:''};
+  });
+  render();
+}).catch(function(e){
+  document.getElementById('summary').innerHTML='<span class="badge">failed to load scan data: '+escapeHtml(e.message)+'</span>';
+});
+})();
+</script>
+</body>
+</html>
