@@ -1,0 +1,155 @@
+# CWI trust-infra: PR preview bot (Vercel pattern) + machine-readable contract gate.
+# A7: builds the PR branch, deploys a live preview to pr-previews/<PR#> on the
+#     Pages branch, and posts the preview link + contract checklist as a PR comment.
+# A8/A9: the `validate` job FAILS the build when .well-known/agent-card.json is
+#     missing or invalid, the SCHEMA-VERSIONS.json contract breaks (where the
+#     registry exists), content.json is invalid, CHANGELOG.md is missing, or the
+#     API-VERSION pin mismatches (where a pin exists).
+name: pr-preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  SITE_DIR: .
+  REPO_NAME: cwi-link-sentinel
+  PAGES_BASE: https://cumulativewebinc.github.io/cwi-link-sentinel
+
+jobs:
+  validate:
+    name: Validate contracts (agent-card / schemas / changelog)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      report: ${{ steps.export.outputs.report }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run contract validator
+        id: run
+        run: python3 .github/scripts/validate-contracts.py --site-dir "$SITE_DIR" --repo "$REPO_NAME" --json-out /tmp/contract-report.json
+      - name: Export report for PR comment
+        id: export
+        if: always()
+        run: echo "report=$(cat /tmp/contract-report.json)" >> "$GITHUB_OUTPUT"
+
+  preview:
+    name: Deploy PR preview
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      url: ${{ steps.deploy.outputs.url }}
+      deployed: ${{ steps.deploy.outputs.deployed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Deploy PR build to pr-previews/<N> on main
+        id: deploy
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          set -euo pipefail
+          git config user.name "cwi-pr-preview[bot]"
+          git config user.email "cwi-pr-preview[bot]@users.noreply.github.com"
+          STAGE="$(mktemp -d)"
+          tar --exclude=.git --exclude=pr-previews -cf - -C "$SITE_DIR" . | tar -xf - -C "$STAGE"
+          touch "$STAGE/.nojekyll"
+          DEPLOYED=false
+          for i in 1 2 3 4 5; do
+            git fetch origin main --quiet
+            git checkout -B pr-preview-deploy origin/main --quiet
+            rm -rf "pr-previews/$PR_NUMBER"
+            mkdir -p "pr-previews/$PR_NUMBER"
+            tar -cf - -C "$STAGE" . | tar -xf - -C "pr-previews/$PR_NUMBER"
+            git add "pr-previews/$PR_NUMBER"
+            if git diff --cached --quiet; then echo "preview already up to date"; DEPLOYED=true; break; fi
+            git commit -m "preview: PR #$PR_NUMBER site build [skip ci]" --quiet
+            if git push origin pr-preview-deploy:main --quiet; then DEPLOYED=true; break; fi
+            echo "push conflict, retry $i"; sleep 5
+          done
+          echo "deployed=$DEPLOYED" >> "$GITHUB_OUTPUT"
+          echo "url=$PAGES_BASE/pr-previews/$PR_NUMBER/" >> "$GITHUB_OUTPUT"
+
+  cleanup:
+    name: Remove PR preview
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Remove pr-previews/<N> from main
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          set -euo pipefail
+          git config user.name "cwi-pr-preview[bot]"
+          git config user.email "cwi-pr-preview[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch origin main --quiet
+            git checkout -B pr-preview-cleanup origin/main --quiet
+            if [ ! -d "pr-previews/$PR_NUMBER" ]; then echo "nothing to clean"; break; fi
+            git rm -r -q "pr-previews/$PR_NUMBER"
+            git commit -m "preview: remove PR #$PR_NUMBER build [skip ci]" --quiet
+            if git push origin pr-preview-cleanup:main --quiet; then break; fi
+            echo "push conflict, retry $i"; sleep 5
+          done
+
+  comment:
+    name: Post PR preview comment
+    if: always() && github.event_name == 'pull_request' && github.event.action != 'closed'
+    needs: [validate, preview]
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/github-script@v7
+        env:
+          REPORT: ${{ needs.validate.outputs.report }}
+          PREVIEW_URL: ${{ needs.preview.outputs.url }}
+          PREVIEW_DEPLOYED: ${{ needs.preview.outputs.deployed }}
+          PREVIEW_RESULT: ${{ needs.preview.result }}
+          VALIDATE_RESULT: ${{ needs.validate.result }}
+          PR_NUMBER: ${{ github.event.number }}
+        with:
+          script: |
+            const marker = '<!-- cwi-pr-preview -->';
+            let report = {};
+            try { report = JSON.parse(process.env.REPORT || '{}'); } catch (e) { report = {}; }
+            const rows = (report.checks || [])
+              .map(c => `| ${c.pass ? '✅' : '❌'} | ${c.id} | ${c.detail} |`).join('\n');
+            const previewLine = process.env.PREVIEW_DEPLOYED === 'true'
+              ? `🔍 **Live preview:** ${process.env.PREVIEW_URL}`
+              : `⚠️ Preview deploy did not complete (job result: ${process.env.PREVIEW_RESULT}) — see the \`Deploy PR preview\` job log.`;
+            const body = `${marker}
+            ## PR preview + contract checklist
+            ${previewLine}
+
+            Production: ${process.env.PAGES_BASE}
+
+            |  | check | detail |
+            |---|---|---|
+            ${rows}
+
+            _Contract gate result: \`${process.env.VALIDATE_RESULT}\` — the build fails when the agent-card is missing/invalid, the SCHEMA-VERSIONS contract breaks, content.json is invalid, CHANGELOG.md is missing, or the API-VERSION pin mismatches._`;
+            const { owner, repo } = context.repo;
+            const issue_number = Number(process.env.PR_NUMBER);
+            const { data: comments } = await github.rest.issues.listComments({ owner, repo, issue_number });
+            const existing = comments.find(c => c.body && c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
