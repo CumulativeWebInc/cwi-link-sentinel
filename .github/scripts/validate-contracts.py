@@ -56,11 +56,22 @@ def main():
                 checks.append(check("schema-versions", False,
                                     "SCHEMA-VERSIONS.json: registry itself lacks schema_version"))
             else:
+                # Registry shapes in the wild:
+                #  (1) flat:        {"path/to/doc.json": "1.0.0", ...}            (ultimate)
+                #  (2) nested flat: {"registry": {"path/to/doc.json": "1.0.0"}}  (generic)
+                #  (3) version->file: {"registry": {"1.0.0": {"file": "path/to/doc.json"}}} (agent-deck)
+                entries = reg.get("registry") if isinstance(reg.get("registry"), dict) else reg
                 bad = []
-                SKIP_KEYS = {"schema_version", "default"}
-                for path, expected in reg.items():
-                    if path.startswith("$") or path.startswith("how_to_") or path in SKIP_KEYS:
+                SKIP_KEYS = {"schema_version", "default", "note", "registry"}
+                for key, val in entries.items():
+                    if key.startswith("$") or key.startswith("how_to_") or key in SKIP_KEYS:
                         continue
+                    if isinstance(val, str):
+                        path, expected = key, val                      # shapes 1, 2
+                    elif isinstance(val, dict) and isinstance(val.get("file"), str):
+                        path, expected = val["file"], key              # shape 3
+                    else:
+                        continue  # unrecognized entry shape — never fail on what we don't understand
                     if not os.path.exists(path):
                         bad.append(f"{path}: registered but missing")
                         continue
