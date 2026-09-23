@@ -19,6 +19,7 @@ permissions:
 
 env:
   SITE_DIR: .
+  PREVIEW_DIR: pr-previews
   REPO_NAME: cwi-link-sentinel
   PAGES_BASE: https://cumulativewebinc.github.io/cwi-link-sentinel
 
@@ -68,10 +69,10 @@ jobs:
           for i in 1 2 3 4 5; do
             git fetch origin main --quiet
             git checkout -B pr-preview-deploy origin/main --quiet
-            rm -rf "pr-previews/$PR_NUMBER"
-            mkdir -p "pr-previews/$PR_NUMBER"
-            tar -cf - -C "$STAGE" . | tar -xf - -C "pr-previews/$PR_NUMBER"
-            git add "pr-previews/$PR_NUMBER"
+            rm -rf "$PREVIEW_DIR/$PR_NUMBER"
+            mkdir -p "$PREVIEW_DIR/$PR_NUMBER"
+            tar -cf - -C "$STAGE" . | tar -xf - -C "$PREVIEW_DIR/$PR_NUMBER"
+            git add "$PREVIEW_DIR/$PR_NUMBER"
             if git diff --cached --quiet; then echo "preview already up to date"; DEPLOYED=true; break; fi
             git commit -m "preview: PR #$PR_NUMBER site build [skip ci]" --quiet
             if git push origin pr-preview-deploy:main --quiet; then DEPLOYED=true; break; fi
@@ -100,8 +101,8 @@ jobs:
           for i in 1 2 3 4 5; do
             git fetch origin main --quiet
             git checkout -B pr-preview-cleanup origin/main --quiet
-            if [ ! -d "pr-previews/$PR_NUMBER" ]; then echo "nothing to clean"; break; fi
-            git rm -r -q "pr-previews/$PR_NUMBER"
+            if [ ! -d "$PREVIEW_DIR/$PR_NUMBER" ]; then echo "nothing to clean"; break; fi
+            git rm -r -q "$PREVIEW_DIR/$PR_NUMBER"
             git commit -m "preview: remove PR #$PR_NUMBER build [skip ci]" --quiet
             if git push origin pr-preview-cleanup:main --quiet; then break; fi
             echo "push conflict, retry $i"; sleep 5
