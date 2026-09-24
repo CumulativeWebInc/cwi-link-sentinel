@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Link Sentinel (#52)",
+  "url": "https://cumulativewebinc.github.io/cwi-link-sentinel/",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "author": {
+    "@type": "Organization",
+    "name": "Cumulative Web Inc",
+    "url": "https://cumulativeweb.com/"
+  },
+  "description": "Weekly dead-link radar over CWI's verified links, including Spotify tracks, placement playlists, and catalog routes.",
+  "schema_version": "1.0.0"
+}
