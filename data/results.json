@@ -1,9 +1,9 @@
 {
   "schema": "cwi.link-scan/1.0",
   "engine": "cwi-link-sentinel/1.0.0",
-  "started_at": "2026-09-21T14:10:05.005Z",
-  "finished_at": "2026-09-21T14:10:44.797Z",
-  "duration_s": 39.8,
+  "started_at": "2026-09-28T19:54:56.043Z",
+  "finished_at": "2026-09-28T19:55:23.092Z",
+  "duration_s": 27,
   "record_count": 67,
   "counts": {
     "LIVE": 65,
@@ -27,7 +27,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Zooted Zone\"",
-      "checked_at": "2026-09-21T14:10:05.007Z"
+      "checked_at": "2026-09-28T19:54:56.048Z"
     },
     {
       "id": "trk_3pQEzg7x",
@@ -43,7 +43,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Shaka Zulu\"",
-      "checked_at": "2026-09-21T14:10:06.253Z"
+      "checked_at": "2026-09-28T19:54:56.560Z"
     },
     {
       "id": "trk_4NAyd7rv",
@@ -59,7 +59,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Doves & Diamonds\"",
-      "checked_at": "2026-09-21T14:10:07.493Z"
+      "checked_at": "2026-09-28T19:54:57.054Z"
     },
     {
       "id": "trk_2eSyWmId",
@@ -75,7 +75,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Diabolique\"",
-      "checked_at": "2026-09-21T14:10:08.034Z"
+      "checked_at": "2026-09-28T19:54:57.574Z"
     },
     {
       "id": "trk_2MDHAUo4",
@@ -91,7 +91,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Flamerz\"",
-      "checked_at": "2026-09-21T14:10:08.579Z"
+      "checked_at": "2026-09-28T19:54:58.020Z"
     },
     {
       "id": "trk_4XP56LZj",
@@ -107,7 +107,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Neon Nights Pt. 777\"",
-      "checked_at": "2026-09-21T14:10:09.277Z"
+      "checked_at": "2026-09-28T19:54:58.529Z"
     },
     {
       "id": "trk_2daugr3n",
@@ -123,7 +123,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Ultimate\"",
-      "checked_at": "2026-09-21T14:10:09.827Z"
+      "checked_at": "2026-09-28T19:54:58.927Z"
     },
     {
       "id": "trk_6nhzq7P7",
@@ -139,7 +139,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Painted Lady\"",
-      "checked_at": "2026-09-21T14:10:10.946Z"
+      "checked_at": "2026-09-28T19:54:59.509Z"
     },
     {
       "id": "trk_3w4RKguH",
@@ -155,7 +155,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Warped and Wicked\"",
-      "checked_at": "2026-09-21T14:10:11.626Z"
+      "checked_at": "2026-09-28T19:54:59.959Z"
     },
     {
       "id": "trk_4RFWRhPn",
@@ -171,7 +171,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Golden Diamond\"",
-      "checked_at": "2026-09-21T14:10:12.154Z"
+      "checked_at": "2026-09-28T19:55:00.387Z"
     },
     {
       "id": "trk_2tEdW6WK",
@@ -187,7 +187,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Spirits n Shadows\"",
-      "checked_at": "2026-09-21T14:10:13.269Z"
+      "checked_at": "2026-09-28T19:55:01.020Z"
     },
     {
       "id": "trk_7FQvcCS2",
@@ -203,7 +203,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Flex My Flame\"",
-      "checked_at": "2026-09-21T14:10:14.016Z"
+      "checked_at": "2026-09-28T19:55:01.955Z"
     },
     {
       "id": "trk_2ZUYjQGs",
@@ -219,7 +219,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Rainbows And Roses\"",
-      "checked_at": "2026-09-21T14:10:14.646Z"
+      "checked_at": "2026-09-28T19:55:02.550Z"
     },
     {
       "id": "trk_6NfxhZ4N",
@@ -235,7 +235,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Tears and Scars\"",
-      "checked_at": "2026-09-21T14:10:16.183Z"
+      "checked_at": "2026-09-28T19:55:03.012Z"
     },
     {
       "id": "trk_2aTbpxiF",
@@ -251,7 +251,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Toxic Elements\"",
-      "checked_at": "2026-09-21T14:10:16.727Z"
+      "checked_at": "2026-09-28T19:55:03.415Z"
     },
     {
       "id": "trk_2dvfN5rF",
@@ -267,7 +267,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"7th Angel\"",
-      "checked_at": "2026-09-21T14:10:17.243Z"
+      "checked_at": "2026-09-28T19:55:03.999Z"
     },
     {
       "id": "trk_6YQq5Gsa",
@@ -283,7 +283,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Scorpions & Sapphires\"",
-      "checked_at": "2026-09-21T14:10:17.825Z"
+      "checked_at": "2026-09-28T19:55:04.488Z"
     },
     {
       "id": "trk_3KX10tZB",
@@ -299,7 +299,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Place I Go to Dream\"",
-      "checked_at": "2026-09-21T14:10:18.405Z"
+      "checked_at": "2026-09-28T19:55:04.883Z"
     },
     {
       "id": "trk_31MTBSMf",
@@ -315,7 +315,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Place I Go to Dream\"",
-      "checked_at": "2026-09-21T14:10:20.248Z"
+      "checked_at": "2026-09-28T19:55:05.329Z"
     },
     {
       "id": "trk_3tKoMnnl",
@@ -331,7 +331,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Place I Go to Dream\"",
-      "checked_at": "2026-09-21T14:10:20.957Z"
+      "checked_at": "2026-09-28T19:55:05.810Z"
     },
     {
       "id": "trk_6jJpR9Ih",
@@ -347,7 +347,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Smokin' Pain\"",
-      "checked_at": "2026-09-21T14:10:21.552Z"
+      "checked_at": "2026-09-28T19:55:06.417Z"
     },
     {
       "id": "trk_7xbS3rY8",
@@ -363,7 +363,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Phantasm\"",
-      "checked_at": "2026-09-21T14:10:22.278Z"
+      "checked_at": "2026-09-28T19:55:06.802Z"
     },
     {
       "id": "trk_4Z5UCQLq",
@@ -379,7 +379,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Misfits and Hooligans\"",
-      "checked_at": "2026-09-21T14:10:23.014Z"
+      "checked_at": "2026-09-28T19:55:07.228Z"
     },
     {
       "id": "trk_3r86Cjox",
@@ -395,7 +395,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Roses over Monaco\"",
-      "checked_at": "2026-09-21T14:10:23.663Z"
+      "checked_at": "2026-09-28T19:55:07.725Z"
     },
     {
       "id": "pl_5zhnSpZq",
@@ -411,7 +411,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"New Rap Hits\"",
-      "checked_at": "2026-09-21T14:10:24.559Z"
+      "checked_at": "2026-09-28T19:55:08.131Z"
     },
     {
       "id": "pl_79Qj8SYO",
@@ -427,7 +427,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"No Label Needed\"",
-      "checked_at": "2026-09-21T14:10:25.131Z"
+      "checked_at": "2026-09-28T19:55:08.764Z"
     },
     {
       "id": "pl_0hsLLFaA",
@@ -443,7 +443,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"360°\"",
-      "checked_at": "2026-09-21T14:10:25.769Z"
+      "checked_at": "2026-09-28T19:55:09.226Z"
     },
     {
       "id": "graph_llms_txt",
@@ -459,7 +459,7 @@
         "content_type": "text/plain; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:26.389Z"
+      "checked_at": "2026-09-28T19:55:09.672Z"
     },
     {
       "id": "graph_catalog_json",
@@ -475,7 +475,7 @@
         "content_type": "application/json; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:27.028Z"
+      "checked_at": "2026-09-28T19:55:10.151Z"
     },
     {
       "id": "graph_graph_json",
@@ -491,7 +491,7 @@
         "content_type": "application/json; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:27.488Z"
+      "checked_at": "2026-09-28T19:55:10.459Z"
     },
     {
       "id": "graph_kit_json",
@@ -507,7 +507,7 @@
         "content_type": "application/json; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:27.885Z"
+      "checked_at": "2026-09-28T19:55:10.765Z"
     },
     {
       "id": "graph_agent-card",
@@ -523,7 +523,7 @@
         "content_type": "application/json; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:28.284Z"
+      "checked_at": "2026-09-28T19:55:11.058Z"
     },
     {
       "id": "graph_gtavi_jpg",
@@ -539,7 +539,7 @@
         "content_type": "image/jpeg"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:28.666Z"
+      "checked_at": "2026-09-28T19:55:11.373Z"
     },
     {
       "id": "clm_zooted",
@@ -555,7 +555,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "HTTP 404 at https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NKM8WC5CT9FCGPHAQB.html",
-      "checked_at": "2026-09-21T14:10:29.045Z"
+      "checked_at": "2026-09-28T19:55:11.737Z"
     },
     {
       "id": "app_gear-ledger-3d-mockup",
@@ -571,7 +571,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:29.711Z"
+      "checked_at": "2026-09-28T19:55:12.086Z"
     },
     {
       "id": "app_ultimate",
@@ -587,7 +587,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:30.081Z"
+      "checked_at": "2026-09-28T19:55:12.448Z"
     },
     {
       "id": "app_cwi-learn",
@@ -603,7 +603,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:30.455Z"
+      "checked_at": "2026-09-28T19:55:12.784Z"
     },
     {
       "id": "app_playback-chip",
@@ -619,7 +619,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:30.826Z"
+      "checked_at": "2026-09-28T19:55:13.136Z"
     },
     {
       "id": "app_cwi-agent-directory",
@@ -635,7 +635,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:31.223Z"
+      "checked_at": "2026-09-28T19:55:13.475Z"
     },
     {
       "id": "app_cwi-nft-waitlist",
@@ -651,7 +651,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:31.603Z"
+      "checked_at": "2026-09-28T19:55:13.804Z"
     },
     {
       "id": "app_cwi-sync",
@@ -667,7 +667,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:32.080Z"
+      "checked_at": "2026-09-28T19:55:14.119Z"
     },
     {
       "id": "app_agent-deck",
@@ -683,7 +683,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:32.469Z"
+      "checked_at": "2026-09-28T19:55:14.444Z"
     },
     {
       "id": "app_join",
@@ -699,7 +699,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:32.957Z"
+      "checked_at": "2026-09-28T19:55:14.750Z"
     },
     {
       "id": "app_cwi-sync-audition",
@@ -715,7 +715,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:33.360Z"
+      "checked_at": "2026-09-28T19:55:15.044Z"
     },
     {
       "id": "app_cwi-brief-matcher",
@@ -731,7 +731,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:33.730Z"
+      "checked_at": "2026-09-28T19:55:15.357Z"
     },
     {
       "id": "app_cwi-trust-log",
@@ -747,7 +747,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:34.123Z"
+      "checked_at": "2026-09-28T19:55:15.681Z"
     },
     {
       "id": "app_cwi-skill-sentinel",
@@ -763,7 +763,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:34.509Z"
+      "checked_at": "2026-09-28T19:55:16.000Z"
     },
     {
       "id": "app_cwi-verdict-watch",
@@ -779,7 +779,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:35.024Z"
+      "checked_at": "2026-09-28T19:55:16.320Z"
     },
     {
       "id": "app_cwi-sonic-search",
@@ -795,7 +795,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:35.413Z"
+      "checked_at": "2026-09-28T19:55:16.639Z"
     },
     {
       "id": "app_cwi-context-grants",
@@ -811,7 +811,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:35.790Z"
+      "checked_at": "2026-09-28T19:55:16.951Z"
     },
     {
       "id": "app_cwi-settlement-prover",
@@ -827,7 +827,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:36.186Z"
+      "checked_at": "2026-09-28T19:55:17.276Z"
     },
     {
       "id": "app_cwi-listening-room",
@@ -843,7 +843,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:36.561Z"
+      "checked_at": "2026-09-28T19:55:17.639Z"
     },
     {
       "id": "app_cwi-change-ledger",
@@ -859,7 +859,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:37.050Z"
+      "checked_at": "2026-09-28T19:55:17.953Z"
     },
     {
       "id": "app_cwi-identity-ledger",
@@ -875,7 +875,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:37.442Z"
+      "checked_at": "2026-09-28T19:55:18.277Z"
     },
     {
       "id": "app_cwi-memory-seal",
@@ -891,7 +891,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:37.831Z"
+      "checked_at": "2026-09-28T19:55:18.601Z"
     },
     {
       "id": "app_cwi-cuefinder",
@@ -907,7 +907,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:38.216Z"
+      "checked_at": "2026-09-28T19:55:18.921Z"
     },
     {
       "id": "app_cwi-task-verdict",
@@ -923,7 +923,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:38.655Z"
+      "checked_at": "2026-09-28T19:55:19.258Z"
     },
     {
       "id": "app_cwi-attitude-engine",
@@ -939,7 +939,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:39.030Z"
+      "checked_at": "2026-09-28T19:55:19.585Z"
     },
     {
       "id": "app_cwi-quantum-playground",
@@ -955,7 +955,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:39.415Z"
+      "checked_at": "2026-09-28T19:55:19.908Z"
     },
     {
       "id": "app_cwi-placement-wall",
@@ -971,7 +971,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:39.805Z"
+      "checked_at": "2026-09-28T19:55:20.216Z"
     },
     {
       "id": "app_cwi-onboarding-pack",
@@ -987,7 +987,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:40.200Z"
+      "checked_at": "2026-09-28T19:55:20.609Z"
     },
     {
       "id": "app_cwi-verification-kit",
@@ -1003,7 +1003,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:40.603Z"
+      "checked_at": "2026-09-28T19:55:20.943Z"
     },
     {
       "id": "app_cwi-trust-attestation-explorer",
@@ -1019,7 +1019,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:40.975Z"
+      "checked_at": "2026-09-28T19:55:21.262Z"
     },
     {
       "id": "app_cwi-trust-deploy-gate",
@@ -1035,7 +1035,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:41.369Z"
+      "checked_at": "2026-09-28T19:55:21.576Z"
     },
     {
       "id": "web_cumulativeweb",
@@ -1044,14 +1044,14 @@
       "kind": "http",
       "platform": null,
       "source": "MEMORY.md: verified live CWI web properties",
-      "status": "DEAD",
-      "truth": "UNVERIFIED",
+      "status": "LIVE",
+      "truth": "VERIFIED",
       "evidence": {
         "final_url": "https://cumulativeweb.com",
         "content_type": "text/html; charset=utf-8"
       },
-      "note": "HTTP 404 at https://cumulativeweb.com",
-      "checked_at": "2026-09-21T14:10:41.807Z"
+      "note": "200 OK",
+      "checked_at": "2026-09-28T19:55:21.886Z"
     },
     {
       "id": "web_github",
@@ -1067,7 +1067,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:42.623Z"
+      "checked_at": "2026-09-28T19:55:22.229Z"
     },
     {
       "id": "web_substack",
@@ -1076,14 +1076,14 @@
       "kind": "http",
       "platform": null,
       "source": "MEMORY.md: verified live CWI web properties",
-      "status": "LIVE",
-      "truth": "VERIFIED",
+      "status": "DEAD",
+      "truth": "UNVERIFIED",
       "evidence": {
         "final_url": "https://substack.com/@cumulativewebinc",
-        "content_type": "text/html; charset=utf-8"
+        "content_type": "text/html; charset=UTF-8"
       },
-      "note": "200 OK",
-      "checked_at": "2026-09-21T14:10:43.563Z"
+      "note": "HTTP 403 at https://substack.com/@cumulativewebinc",
+      "checked_at": "2026-09-28T19:55:22.773Z"
     }
   ]
 }
