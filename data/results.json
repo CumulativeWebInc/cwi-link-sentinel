@@ -1,14 +1,14 @@
 {
   "schema": "cwi.link-scan/1.0",
   "engine": "cwi-link-sentinel/1.0.0",
-  "started_at": "2026-11-16T22:39:40.955Z",
-  "finished_at": "2026-11-16T22:40:07.791Z",
-  "duration_s": 26.8,
+  "started_at": "2026-11-24T00:29:48.360Z",
+  "finished_at": "2026-11-24T00:30:16.448Z",
+  "duration_s": 28.1,
   "record_count": 67,
   "counts": {
-    "LIVE": 64,
+    "LIVE": 65,
     "REDIRECT": 0,
-    "DEAD": 3,
+    "DEAD": 2,
     "ERROR": 0,
     "UNCHECKED": 0
   },
@@ -27,7 +27,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Zooted Zone\"",
-      "checked_at": "2026-11-16T22:39:40.960Z"
+      "checked_at": "2026-11-24T00:29:48.363Z"
     },
     {
       "id": "trk_3pQEzg7x",
@@ -43,7 +43,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Shaka Zulu\"",
-      "checked_at": "2026-11-16T22:39:41.546Z"
+      "checked_at": "2026-11-24T00:29:49.023Z"
     },
     {
       "id": "trk_4NAyd7rv",
@@ -59,7 +59,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Doves & Diamonds\"",
-      "checked_at": "2026-11-16T22:39:42.124Z"
+      "checked_at": "2026-11-24T00:29:49.636Z"
     },
     {
       "id": "trk_2eSyWmId",
@@ -75,7 +75,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Diabolique\"",
-      "checked_at": "2026-11-16T22:39:42.880Z"
+      "checked_at": "2026-11-24T00:29:51.369Z"
     },
     {
       "id": "trk_2MDHAUo4",
@@ -91,7 +91,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Flamerz\"",
-      "checked_at": "2026-11-16T22:39:43.370Z"
+      "checked_at": "2026-11-24T00:29:51.791Z"
     },
     {
       "id": "trk_4XP56LZj",
@@ -107,7 +107,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Neon Nights Pt. 777\"",
-      "checked_at": "2026-11-16T22:39:44.027Z"
+      "checked_at": "2026-11-24T00:29:52.225Z"
     },
     {
       "id": "trk_2daugr3n",
@@ -123,7 +123,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Ultimate\"",
-      "checked_at": "2026-11-16T22:39:44.453Z"
+      "checked_at": "2026-11-24T00:29:52.635Z"
     },
     {
       "id": "trk_6nhzq7P7",
@@ -139,7 +139,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Painted Lady\"",
-      "checked_at": "2026-11-16T22:39:45.054Z"
+      "checked_at": "2026-11-24T00:29:53.746Z"
     },
     {
       "id": "trk_3w4RKguH",
@@ -155,7 +155,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Warped and Wicked\"",
-      "checked_at": "2026-11-16T22:39:45.674Z"
+      "checked_at": "2026-11-24T00:29:54.235Z"
     },
     {
       "id": "trk_4RFWRhPn",
@@ -171,7 +171,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Golden Diamond\"",
-      "checked_at": "2026-11-16T22:39:46.068Z"
+      "checked_at": "2026-11-24T00:29:54.665Z"
     },
     {
       "id": "trk_2tEdW6WK",
@@ -187,7 +187,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Spirits n Shadows\"",
-      "checked_at": "2026-11-16T22:39:46.758Z"
+      "checked_at": "2026-11-24T00:29:55.088Z"
     },
     {
       "id": "trk_7FQvcCS2",
@@ -203,7 +203,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Flex My Flame\"",
-      "checked_at": "2026-11-16T22:39:47.329Z"
+      "checked_at": "2026-11-24T00:29:55.592Z"
     },
     {
       "id": "trk_2ZUYjQGs",
@@ -219,7 +219,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Rainbows And Roses\"",
-      "checked_at": "2026-11-16T22:39:47.831Z"
+      "checked_at": "2026-11-24T00:29:56.013Z"
     },
     {
       "id": "trk_6NfxhZ4N",
@@ -235,7 +235,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Tears and Scars\"",
-      "checked_at": "2026-11-16T22:39:48.295Z"
+      "checked_at": "2026-11-24T00:29:56.564Z"
     },
     {
       "id": "trk_2aTbpxiF",
@@ -251,7 +251,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Toxic Elements\"",
-      "checked_at": "2026-11-16T22:39:48.664Z"
+      "checked_at": "2026-11-24T00:29:56.935Z"
     },
     {
       "id": "trk_2dvfN5rF",
@@ -267,7 +267,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"7th Angel\"",
-      "checked_at": "2026-11-16T22:39:49.195Z"
+      "checked_at": "2026-11-24T00:29:57.396Z"
     },
     {
       "id": "trk_6YQq5Gsa",
@@ -283,7 +283,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Scorpions & Sapphires\"",
-      "checked_at": "2026-11-16T22:39:49.711Z"
+      "checked_at": "2026-11-24T00:29:57.884Z"
     },
     {
       "id": "trk_3KX10tZB",
@@ -299,7 +299,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Place I Go to Dream\"",
-      "checked_at": "2026-11-16T22:39:50.159Z"
+      "checked_at": "2026-11-24T00:29:58.298Z"
     },
     {
       "id": "trk_31MTBSMf",
@@ -315,7 +315,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Place I Go to Dream\"",
-      "checked_at": "2026-11-16T22:39:50.744Z"
+      "checked_at": "2026-11-24T00:29:58.729Z"
     },
     {
       "id": "trk_3tKoMnnl",
@@ -331,7 +331,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Place I Go to Dream\"",
-      "checked_at": "2026-11-16T22:39:51.133Z"
+      "checked_at": "2026-11-24T00:29:59.256Z"
     },
     {
       "id": "trk_6jJpR9Ih",
@@ -347,7 +347,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Smokin' Pain\"",
-      "checked_at": "2026-11-16T22:39:51.638Z"
+      "checked_at": "2026-11-24T00:29:59.786Z"
     },
     {
       "id": "trk_7xbS3rY8",
@@ -363,7 +363,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Phantasm\"",
-      "checked_at": "2026-11-16T22:39:52.331Z"
+      "checked_at": "2026-11-24T00:30:00.229Z"
     },
     {
       "id": "trk_4Z5UCQLq",
@@ -379,7 +379,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Misfits and Hooligans\"",
-      "checked_at": "2026-11-16T22:39:52.798Z"
+      "checked_at": "2026-11-24T00:30:00.663Z"
     },
     {
       "id": "trk_3r86Cjox",
@@ -395,7 +395,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"Roses over Monaco\"",
-      "checked_at": "2026-11-16T22:39:53.196Z"
+      "checked_at": "2026-11-24T00:30:01.066Z"
     },
     {
       "id": "pl_5zhnSpZq",
@@ -411,7 +411,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"New Rap Hits\"",
-      "checked_at": "2026-11-16T22:39:53.581Z"
+      "checked_at": "2026-11-24T00:30:01.529Z"
     },
     {
       "id": "pl_79Qj8SYO",
@@ -427,7 +427,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"No Label Needed\"",
-      "checked_at": "2026-11-16T22:39:54.039Z"
+      "checked_at": "2026-11-24T00:30:01.984Z"
     },
     {
       "id": "pl_0hsLLFaA",
@@ -443,7 +443,7 @@
         "provider": "Spotify"
       },
       "note": "oEmbed title contains expected \"360°\"",
-      "checked_at": "2026-11-16T22:39:54.687Z"
+      "checked_at": "2026-11-24T00:30:02.466Z"
     },
     {
       "id": "graph_llms_txt",
@@ -459,7 +459,7 @@
         "content_type": "text/plain; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:55.097Z"
+      "checked_at": "2026-11-24T00:30:02.968Z"
     },
     {
       "id": "graph_catalog_json",
@@ -475,7 +475,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "HTTP 404 at https://cumulativewebinc.github.io/cwi-learn/catalog.json",
-      "checked_at": "2026-11-16T22:39:55.424Z"
+      "checked_at": "2026-11-24T00:30:03.273Z"
     },
     {
       "id": "graph_graph_json",
@@ -491,7 +491,7 @@
         "content_type": "application/json; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:55.704Z"
+      "checked_at": "2026-11-24T00:30:03.587Z"
     },
     {
       "id": "graph_kit_json",
@@ -507,7 +507,7 @@
         "content_type": "application/json; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:55.976Z"
+      "checked_at": "2026-11-24T00:30:03.923Z"
     },
     {
       "id": "graph_agent-card",
@@ -523,7 +523,7 @@
         "content_type": "application/json; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:56.272Z"
+      "checked_at": "2026-11-24T00:30:04.230Z"
     },
     {
       "id": "graph_gtavi_jpg",
@@ -539,7 +539,7 @@
         "content_type": "image/jpeg"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:56.554Z"
+      "checked_at": "2026-11-24T00:30:04.511Z"
     },
     {
       "id": "clm_zooted",
@@ -555,7 +555,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "HTTP 404 at https://cumulativewebinc.github.io/cwi-trust-log/claims/clm_01M2N4M1NKM8WC5CT9FCGPHAQB.html",
-      "checked_at": "2026-11-16T22:39:56.829Z"
+      "checked_at": "2026-11-24T00:30:04.808Z"
     },
     {
       "id": "app_gear-ledger-3d-mockup",
@@ -571,7 +571,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:57.142Z"
+      "checked_at": "2026-11-24T00:30:05.118Z"
     },
     {
       "id": "app_ultimate",
@@ -587,7 +587,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:57.618Z"
+      "checked_at": "2026-11-24T00:30:05.431Z"
     },
     {
       "id": "app_cwi-learn",
@@ -603,7 +603,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:57.919Z"
+      "checked_at": "2026-11-24T00:30:05.726Z"
     },
     {
       "id": "app_playback-chip",
@@ -619,7 +619,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:58.193Z"
+      "checked_at": "2026-11-24T00:30:06.010Z"
     },
     {
       "id": "app_cwi-agent-directory",
@@ -635,7 +635,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:58.497Z"
+      "checked_at": "2026-11-24T00:30:06.326Z"
     },
     {
       "id": "app_cwi-nft-waitlist",
@@ -651,7 +651,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:58.801Z"
+      "checked_at": "2026-11-24T00:30:06.723Z"
     },
     {
       "id": "app_cwi-sync",
@@ -667,7 +667,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:59.092Z"
+      "checked_at": "2026-11-24T00:30:07.191Z"
     },
     {
       "id": "app_agent-deck",
@@ -683,7 +683,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:59.406Z"
+      "checked_at": "2026-11-24T00:30:07.557Z"
     },
     {
       "id": "app_join",
@@ -699,7 +699,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:39:59.704Z"
+      "checked_at": "2026-11-24T00:30:07.879Z"
     },
     {
       "id": "app_cwi-sync-audition",
@@ -715,7 +715,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:00.006Z"
+      "checked_at": "2026-11-24T00:30:08.227Z"
     },
     {
       "id": "app_cwi-brief-matcher",
@@ -731,7 +731,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:00.323Z"
+      "checked_at": "2026-11-24T00:30:08.543Z"
     },
     {
       "id": "app_cwi-trust-log",
@@ -747,7 +747,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:00.630Z"
+      "checked_at": "2026-11-24T00:30:08.853Z"
     },
     {
       "id": "app_cwi-skill-sentinel",
@@ -763,7 +763,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:00.943Z"
+      "checked_at": "2026-11-24T00:30:09.140Z"
     },
     {
       "id": "app_cwi-verdict-watch",
@@ -779,7 +779,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:01.256Z"
+      "checked_at": "2026-11-24T00:30:09.443Z"
     },
     {
       "id": "app_cwi-sonic-search",
@@ -795,7 +795,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:01.545Z"
+      "checked_at": "2026-11-24T00:30:09.767Z"
     },
     {
       "id": "app_cwi-context-grants",
@@ -811,7 +811,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:01.849Z"
+      "checked_at": "2026-11-24T00:30:10.057Z"
     },
     {
       "id": "app_cwi-settlement-prover",
@@ -827,7 +827,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:02.146Z"
+      "checked_at": "2026-11-24T00:30:10.355Z"
     },
     {
       "id": "app_cwi-listening-room",
@@ -843,7 +843,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:02.438Z"
+      "checked_at": "2026-11-24T00:30:10.650Z"
     },
     {
       "id": "app_cwi-change-ledger",
@@ -859,7 +859,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:02.746Z"
+      "checked_at": "2026-11-24T00:30:10.958Z"
     },
     {
       "id": "app_cwi-identity-ledger",
@@ -875,7 +875,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:03.039Z"
+      "checked_at": "2026-11-24T00:30:11.256Z"
     },
     {
       "id": "app_cwi-memory-seal",
@@ -891,7 +891,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:03.329Z"
+      "checked_at": "2026-11-24T00:30:11.555Z"
     },
     {
       "id": "app_cwi-cuefinder",
@@ -907,7 +907,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:03.613Z"
+      "checked_at": "2026-11-24T00:30:11.872Z"
     },
     {
       "id": "app_cwi-task-verdict",
@@ -923,7 +923,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:03.911Z"
+      "checked_at": "2026-11-24T00:30:12.181Z"
     },
     {
       "id": "app_cwi-attitude-engine",
@@ -939,7 +939,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:04.208Z"
+      "checked_at": "2026-11-24T00:30:12.481Z"
     },
     {
       "id": "app_cwi-quantum-playground",
@@ -955,7 +955,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:04.522Z"
+      "checked_at": "2026-11-24T00:30:12.774Z"
     },
     {
       "id": "app_cwi-placement-wall",
@@ -971,7 +971,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:04.811Z"
+      "checked_at": "2026-11-24T00:30:13.316Z"
     },
     {
       "id": "app_cwi-onboarding-pack",
@@ -987,7 +987,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:05.240Z"
+      "checked_at": "2026-11-24T00:30:13.608Z"
     },
     {
       "id": "app_cwi-verification-kit",
@@ -1003,7 +1003,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:05.535Z"
+      "checked_at": "2026-11-24T00:30:13.902Z"
     },
     {
       "id": "app_cwi-trust-attestation-explorer",
@@ -1019,7 +1019,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:05.840Z"
+      "checked_at": "2026-11-24T00:30:14.192Z"
     },
     {
       "id": "app_cwi-trust-deploy-gate",
@@ -1035,7 +1035,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:06.135Z"
+      "checked_at": "2026-11-24T00:30:14.491Z"
     },
     {
       "id": "web_cumulativeweb",
@@ -1051,7 +1051,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:06.428Z"
+      "checked_at": "2026-11-24T00:30:14.940Z"
     },
     {
       "id": "web_github",
@@ -1067,7 +1067,7 @@
         "content_type": "text/html; charset=utf-8"
       },
       "note": "200 OK",
-      "checked_at": "2026-11-16T22:40:06.910Z"
+      "checked_at": "2026-11-24T00:30:15.351Z"
     },
     {
       "id": "web_substack",
@@ -1076,14 +1076,14 @@
       "kind": "http",
       "platform": null,
       "source": "MEMORY.md: verified live CWI web properties",
-      "status": "DEAD",
-      "truth": "UNVERIFIED",
+      "status": "LIVE",
+      "truth": "VERIFIED",
       "evidence": {
         "final_url": "https://substack.com/@cumulativewebinc",
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": "text/html; charset=utf-8"
       },
-      "note": "HTTP 403 at https://substack.com/@cumulativewebinc",
-      "checked_at": "2026-11-16T22:40:07.515Z"
+      "note": "200 OK",
+      "checked_at": "2026-11-24T00:30:16.078Z"
     }
   ]
 }
